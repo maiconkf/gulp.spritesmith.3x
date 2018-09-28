@@ -8,8 +8,37 @@
     "lib": "lib",
     "test": "test"
   },
-  "dependencies": {},
-  "devDependencies": {},
+  "bundleDependencies": false,
+  "dependencies": {
+    "async": "~2.1.5",
+    "gulp-util": "~3.0.8",
+    "minimatch": "~3.0.3",
+    "spritesheet-templates-x3": "~1.0.1",
+    "spritesmith": "~3.3.0",
+    "through2": "~2.0.3",
+    "underscore": "~1.8.3",
+    "url2": "~1.0.4"
+  },
+  "deprecated": false,
+  "description": "Convert a set of images into a spritesheet and CSS variables via gulp, support @3x",
+  "devDependencies": {
+    "foundry": "~4.3.2",
+    "foundry-release-git": "~2.0.2",
+    "foundry-release-npm": "~2.0.2",
+    "gulp": "~3.9.1",
+    "gulp-csso": "~3.0.0",
+    "gulp-imagemin": "~3.1.1",
+    "js-yaml": "~3.8.2",
+    "jscs": "~3.0.7",
+    "jshint": "~2.9.4",
+    "merge-stream": "~1.0.1",
+    "mocha": "~3.2.0",
+    "phantomjssmith": "~1.0.0",
+    "pngparse": "~2.0.1",
+    "rimraf": "~2.6.1",
+    "twolfson-style": "~1.6.0",
+    "vinyl-buffer": "~1.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
