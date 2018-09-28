@@ -7,8 +7,8 @@ Based on [gulp.spritesmith](https://github.com/twolfson/gulp.spritesmith)
 `npm i gulp.spritesmith.3x`
 
 ```
-var gulp = require('gulp'),
-sprite = require('gulp.spritesmith.3x');
+var gulp = require('gulp');
+var sprite = require('gulp.spritesmith.3x');
 
 gulp.task('sprite', function() {
   var spriteData = gulp.src('./dist/img/sprite/*.png')
