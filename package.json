@@ -1,6 +1,6 @@
 {
   "name": "gulp.spritesmith.3x",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Convert a set of images into a spritesheet and CSS variables via gulp, support @3x",
   "main": "index.js",
   "directories": {
