@@ -13,7 +13,7 @@
     "async": "~2.1.5",
     "gulp-util": "~3.0.8",
     "minimatch": "~3.0.3",
-    "spritesheet-templates-3x": "~1.0.1",
+    "spritesheet-templates-3x": "~1.0.4",
     "spritesmith": "~3.3.0",
     "through2": "~2.0.3",
     "underscore": "~1.8.3",
@@ -50,5 +50,11 @@
   "bugs": {
     "url": "https://github.com/maiconkf/gulp.spritesmith.3x/issues"
   },
+  "keywords": [
+    "gulpplugin",
+    "spritesmith",
+    "sprite",
+    "spritesheet"
+  ],
   "homepage": "https://github.com/maiconkf/gulp.spritesmith.3x#readme"
 }
