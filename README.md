@@ -6,7 +6,7 @@ Based on [gulp.spritesmith](https://github.com/twolfson/gulp.spritesmith)
 ## Getting Started
 `npm i gulp.spritesmith.3x`
 
-```gulp
+```javascript
 var gulp = require('gulp');
 var sprite = require('gulp.spritesmith.3x');
 
