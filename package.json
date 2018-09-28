@@ -1,6 +1,6 @@
 {
   "name": "gulp.spritesmith.3x",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert a set of images into a spritesheet and CSS variables via gulp, support @3x",
   "main": "index.js",
   "directories": {
@@ -20,7 +20,6 @@
     "url2": "~1.0.4"
   },
   "deprecated": false,
-  "description": "Convert a set of images into a spritesheet and CSS variables via gulp, support @3x",
   "devDependencies": {
     "foundry": "~4.3.2",
     "foundry-release-git": "~2.0.2",
