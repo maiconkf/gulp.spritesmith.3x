@@ -6,7 +6,7 @@ Based on [gulp.spritesmith](https://github.com/twolfson/gulp.spritesmith)
 ## Getting Started
 `npm i gulp.spritesmith.3x`
 
-```
+```gulp
 var gulp = require('gulp');
 var sprite = require('gulp.spritesmith.3x');
 
@@ -21,10 +21,12 @@ gulp.task('sprite', function() {
       imgPath: '../img/sprite.png',
       retinaImgPath: '../img/sprite@2x.png',
       retina3xImgPath: '../img/sprite@3x.png',
-      cssName: 'sprites.scss'
+      cssName: 'sprites.css'
     }));
 
   spriteData.img.pipe(gulp.dest('./dist/img/'));
   spriteData.css.pipe(gulp.dest('./sass/'));
 });
 ```
+
+For now, only .css is supported.
