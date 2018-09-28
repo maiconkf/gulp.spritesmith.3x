@@ -8,7 +8,7 @@ Based on [gulp.spritesmith](https://github.com/twolfson/gulp.spritesmith)
 
 ```
 var gulp = require('gulp'),
-	sprite = require('gulp.spritesmith.3x');
+sprite = require('gulp.spritesmith.3x');
 
 gulp.task('sprite', function() {
   var spriteData = gulp.src('./dist/img/sprite/*.png')
@@ -21,7 +21,7 @@ gulp.task('sprite', function() {
       imgPath: '../img/sprite.png',
       retinaImgPath: '../img/sprite@2x.png',
       retina3xImgPath: '../img/sprite@3x.png',
-      cssName: 'sprites.css'
+      cssName: 'sprites.scss'
     }));
 
   spriteData.img.pipe(gulp.dest('./dist/img/'));
