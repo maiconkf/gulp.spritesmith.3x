@@ -1,0 +1,26 @@
+{
+  "name": "gulp.spritesmith.3x",
+  "version": "1.0.0",
+  "description": "Convert a set of images into a spritesheet and CSS variables via gulp, support @3x",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maiconkf/gulp.spritesmith.3x.git"
+  },
+  "author": "Maicon Furtado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maiconkf/gulp.spritesmith.3x/issues"
+  },
+  "homepage": "https://github.com/maiconkf/gulp.spritesmith.3x#readme"
+}
