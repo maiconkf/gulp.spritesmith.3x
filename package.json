@@ -50,5 +50,11 @@
   "bugs": {
     "url": "https://github.com/maiconkf/gulp.spritesmith.3x/issues"
   },
+  "keywords": [
+    "gulpplugin",
+    "spritesmith",
+    "sprite",
+    "spritesheet"
+  ],
   "homepage": "https://github.com/maiconkf/gulp.spritesmith.3x#readme"
 }
