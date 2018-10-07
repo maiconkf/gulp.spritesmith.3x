@@ -51,4 +51,4 @@ $icon_home_group_3x = 'icon-home', $icon_home, $icon_home_3x
 }
 ```
 
-For now, only .css is supported.
+For now, only .css, .scss, .stylus and .json is supported.
