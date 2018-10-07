@@ -30,7 +30,7 @@ gulp.task('sprite', function() {
 });
 ```
 
-### SCSS
+#### SCSS
 
 ```scss
 $icon-home-group: ('icon-home', $home, $home-2x);
@@ -41,7 +41,7 @@ $icon-home-group-3x: ('icon-home', $home, $home-3x);
 }
 ```
 
-### Stylus
+#### Stylus
 ```stylus
 $icon_home_group = 'icon-home' $icon_home $icon_home_2x;
 $icon_home_group_3x = 'icon-home', $icon_home, $icon_home_3x
