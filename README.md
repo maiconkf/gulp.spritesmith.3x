@@ -1,5 +1,6 @@
 # gulp.spritesmith.3x 
-Convert a set of images into a spritesheet and CSS variables via gulp, support @3x
+Convert a set of images into a spritesheet and CSS variables via gulp, support @3x.
+Support: css, scss, stylus and json.
 
 Based on [gulp.spritesmith](https://github.com/twolfson/gulp.spritesmith)
 
@@ -27,6 +28,27 @@ gulp.task('sprite', function() {
   spriteData.img.pipe(gulp.dest('./dist/img/'));
   spriteData.css.pipe(gulp.dest('./sass/'));
 });
+```
+
+### SCSS
+
+```scss
+$icon-home-group: ('icon-home', $home, $home-2x);
+$icon-home-group-3x: ('icon-home', $home, $home-3x);
+
+.icon-home {
+   @include retina-sprite($icon-home-group, $icon-home-group-3x);
+}
+```
+
+### Stylus
+```stylus
+$icon_home_group = 'icon-home' $icon_home $icon_home_2x;
+$icon_home_group_3x = 'icon-home', $icon_home, $icon_home_3x
+
+.icon-home {
+  retinaSprite($icon_home_group, $icon_home_group_3x)
+}
 ```
 
 For now, only .css is supported.
